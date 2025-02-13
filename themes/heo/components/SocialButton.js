@@ -19,6 +19,15 @@ const SocialButton = () => {
   return (
     <div className='w-full justify-center flex-wrap flex'>
       <div className='space-x-12 text-3xl text-gray-600 dark:text-gray-300 '>
+        {CONTACT_BILIBILI && (
+          <a
+            target='_blank'
+            rel='noreferrer'
+            title={'bilibili'}
+            href={CONTACT_BILIBILI}>
+            <i className='transform hover:scale-125 duration-150 fab fa-bilibili dark:hover:text-indigo-400 hover:text-indigo-600' />
+          </a>
+        )}
         {CONTACT_GITHUB && (
           <a
             target='_blank'
@@ -89,15 +98,6 @@ const SocialButton = () => {
             title={'RSS'}
             href={'/rss/feed.xml'}>
             <i className='transform hover:scale-125 duration-150 fas fa-rss dark:hover:text-indigo-400 hover:text-indigo-600' />
-          </a>
-        )}
-        {CONTACT_BILIBILI && (
-          <a
-            target='_blank'
-            rel='noreferrer'
-            title={'bilibili'}
-            href={CONTACT_BILIBILI}>
-            <i className='transform hover:scale-125 duration-150 fab fa-bilibili dark:hover:text-indigo-400 hover:text-indigo-600' />
           </a>
         )}
         {CONTACT_YOUTUBE && (
