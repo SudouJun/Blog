@@ -33,16 +33,9 @@ const Footer = () => {
           <PoweredBy />
           <div className='flex gap-x-1'>
             <CopyRightDate />
-/*
-            <a
-              href={'/about'}
-              className='underline font-semibold dark:text-gray-300 '>
-              {siteConfig('AUTHOR')}
-            </a>
-*/
-			<span className='font-semibold dark:text-gray-300'>
-			  酥逗菌的博客
-			</span>
+	    <span className='font-semibold dark:text-gray-300'>
+ 	     酥逗菌的博客
+	    </span>
             {BIO && <span className='mx-1'> | {BIO}</span>}
           </div>
         </div>
