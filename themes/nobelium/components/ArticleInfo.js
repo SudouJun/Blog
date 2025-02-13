@@ -1,3 +1,4 @@
+
 import Image from 'next/image'
 import TagItem from './TagItem'
 import md5 from 'js-md5'
@@ -24,7 +25,7 @@ export const ArticleInfo = (props) => {
                                 alt={siteConfig('AUTHOR')}
                                 width={24}
                                 height={24}
-                                src="https://vip.123pan.cn/1845515922/yk6baz03t0n000d6xujp03jfw7xvtyt8DIYxAIJPAIrvDpxPDwryAa==.jpg"
+                                src={`https://gravatar.com/avatar/${emailHash}`}
                                 className="rounded-full"
                             />
                             <p className="ml-2 md:block">{siteConfig('AUTHOR')}</p>
