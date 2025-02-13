@@ -1,4 +1,3 @@
-
 import Image from 'next/image'
 import TagItem from './TagItem'
 import md5 from 'js-md5'
@@ -25,7 +24,7 @@ export const ArticleInfo = (props) => {
                                 alt={siteConfig('AUTHOR')}
                                 width={24}
                                 height={24}
-                                src={`https://img.notionusercontent.com/s3/prod-files-secure%2Fc5f68112-08ca-4a2a-a256-3c74693870fc%2F1f4b72e8-a985-4690-a4a8-4cdc1a2cf558%2F%E9%85%A5%E9%80%97%E8%8F%8C.jpg/size/w=60?exp=1739530850&sig=zaVp8qSN_yaJG1mUnwoSSp9c7eYJ9RXBsnGXpGRQSgs`}
+                                src="https://vip.123pan.cn/1845515922/yk6baz03t0n000d6xujp03jfw7xvtyt8DIYxAIJPAIrvDpxPDwryAa==.jpg"
                                 className="rounded-full"
                             />
                             <p className="ml-2 md:block">{siteConfig('AUTHOR')}</p>
