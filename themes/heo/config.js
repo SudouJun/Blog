@@ -25,7 +25,7 @@ const CONFIG = {
   HEO_HERO_TITLE_2: '学习与成长过程',
   HEO_HERO_TITLE_3: 'SUDOUJUN.COM',
   HEO_HERO_TITLE_4: '随机跳转',
-  HEO_HERO_TITLE_5: "SUDOUJUN's BLOG",
+  HEO_HERO_TITLE_5: "快来看看最新文章！",
   HEO_HERO_TITLE_LINK: 'https://blog.sudoujun.com',
   // 英雄区遮罩文字
   HEO_HERO_COVER_TITLE: '随便逛逛',
