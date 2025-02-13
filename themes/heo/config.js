@@ -8,10 +8,7 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: '欢迎来到我的博客', url: '/' },
-    { title: '记录学习与探索的脚步', url: '/' },
-    { title: '分享技术与创意的碰撞', url: '/' },
-    { title: '书写成长与梦想的篇章', url: '/' }
+    { title: '点击访问我の星辰海', url: 'https://www.sudoujun.com' }
   ],
 
   // 英雄区左右侧组件颠倒位置
