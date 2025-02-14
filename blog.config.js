@@ -18,7 +18,7 @@ const BLOG = {
   BIO: process.env.NEXT_PUBLIC_BIO || '哔哩哔哩UP主', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://blog.sudoujun.com', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '酥逗菌,博客,记录,分享,技术,教程,探索,成长,创意', // 网站关键词 英文逗号隔开
-  BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || 'https://vip.123pan.cn/1845515922/yk6baz03t0n000d6xujp03jfw7xvtyt8DIYxAIJPAIrvDpxPDwryAa==.jpg', // blog favicon 配置, 默认使用 /public/favicon.ico，支持在线图片，如 https://img.imesong.com/favicon.png
+  BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || 'https://i2.hdslb.com/bfs/face/e486f32b8fda6b25bb4ba955731221f263ae13d3.jpg@240w_240h_1c_1s_!web-avatar-nav.avif', // blog favicon 配置, 默认使用 /public/favicon.ico，支持在线图片，如 https://img.imesong.com/favicon.png
   BEI_AN: process.env.NEXT_PUBLIC_BEI_AN || '萌ICP备20250121号', // 备案号 闽ICP备XXXXXX
   BEI_AN_LINK: process.env.NEXT_PUBLIC_BEI_AN_LINK || 'https://icp.gov.moe/?keyword=20250121', // 备案查询链接，如果用了萌备等备案请在这里填写
 
